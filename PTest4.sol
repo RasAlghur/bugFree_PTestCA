@@ -861,7 +861,7 @@ contract BurnerTracker {
     }
 }
  
-contract PTEST3 is ERC20, Ownable, BurnerTracker {
+contract PTEST4 is ERC20, Ownable, BurnerTracker {
     using SafeMath for uint256;
  
     IUniswapV2Router02 public immutable uniswapV2Router;
@@ -907,7 +907,7 @@ contract PTEST3 is ERC20, Ownable, BurnerTracker {
         uint256 tokensIntoLiquidity
     );
  
-    constructor(address _feeWallet, address _newOwner) ERC20("PTEST3", "PTEST3") Ownable(_newOwner){
+    constructor(address _feeWallet, address _newOwner) ERC20("PTEST4", "PTEST4") Ownable(_newOwner){
  
         IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0xD99D1c33F9fC3444f8101754aBC46c52416550D1);
         address _uniswapV2Pair =
